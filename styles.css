@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 
+
 body {
     display: flex;
     flex-direction: column;  
@@ -15,7 +16,7 @@ body {
     align-items: baseline;
 }
 
-.logo {
+.logo, .action1 {
     font-size: 24px;
     color: #F9FAF8;
     font-weight: bold;
@@ -32,8 +33,9 @@ body {
     flex-wrap: wrap;
 }
 
-.header, .main {
+.header, .main, .footer {
     background-color: #1f2937;
+    color: #F9FAF8;
 }
 
 .header {
@@ -70,12 +72,14 @@ body {
     margin-bottom: 8px;
 }
 
-.main button {
+.main button, .blue-shape button {
     background-color: #3882f6;
     width: 116px;
     padding: 6px 0px;
     border-radius: 10px;
     font-weight: bold;
+    border: 1px solid #1F2937;
+    color: white;
 }
 
 .main img {
@@ -154,3 +158,43 @@ body {
 
 }
 
+.signup {
+    display: flex;
+    min-height: 600px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.blue-shape {
+    display:flex;
+    background-color: #3882f6;
+    min-width: 50%;
+    padding: 50px 100px;
+    justify-content: space-between;
+    border-radius: 10px;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 0px 24px;
+}
+
+.left-div {
+    display: flex;
+    flex-direction: column;
+}
+
+.action2 {
+    color: #E5E7EB;
+}
+
+.blue-shape button {
+    border: 1px solid white;
+    align-self: last baseline;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px 0px;
+}
