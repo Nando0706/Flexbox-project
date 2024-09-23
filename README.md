@@ -1,4 +1,4 @@
-# Flexbox-proyect
+# Flexbox-project
 Proyecto realizado en VisualStudioCode con base a https://www.theodinproject.com/lessons/foundations-landing-page
 
 Gracias a este proyecto he podido pulir mis habilidades en CSS y HTML trabajar sin seguir una camino definido
